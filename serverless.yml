@@ -67,11 +67,11 @@ functions:
     - http:
         path: /v1/api/get
         method: get
-        cors: false
+        cors: true
     - http:
         path: /v1/api/get/{collection}
         method: get
-        cors: false
+        cors: true
     #POST Method
     - http:
         path: /v1/api/post
