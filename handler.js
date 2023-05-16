@@ -38,7 +38,7 @@ exports.index = async function(event) {
     //let collection = event.queryStringParameters.collection != "" ? event.queryStringParameters.collection : event.pathParameters.collection;
     
     //*** This should be consider to have coherence with the functions section into serverless.yml 
-    //**  path: /v1/api/get/{collection}
+    //**  
     let collection = event.pathParameters.collection;
     
     //console.log(`Path Parameters: ${event.pathParameters.collection}`);
